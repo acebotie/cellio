@@ -1,0 +1,22 @@
+{
+  "name": "cellio",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acebotie/cellio.git"
+  },
+  "author": "Juillet9s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acebotie/cellio/issues"
+  },
+  "homepage": "https://github.com/acebotie/cellio#readme",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
