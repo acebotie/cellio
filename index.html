@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ceLLio</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0 auto;
+    }
+    #dragArea {
+      width: 98%;
+      padding: 15% 0;
+      background: #eaebed;
+      border: 2px dashed #cfd3d6;
+      text-align: center;
+      margin: 0 auto;
+    }
+    #dragArea a {
+      color: royalblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="dragArea">
+    <div>Drag and drop file to process</div>
+    <div>or
+      <a>choose file</a>
+    </div>
+  </div>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</body>
+
+</html>
