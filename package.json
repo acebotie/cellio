@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "electron-disable-file-drop": "^1.0.2",
+    "jquery": "^3.3.1",
     "xlsx": "^0.12.6"
   }
 }

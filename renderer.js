@@ -2,7 +2,7 @@
 // be executed in the renderer process for that window.
 // All of the Node.js APIs are available in this process.
 require('electron-disable-file-drop');
-window.$ = window.jQuery = require('./jquery-2.1.4.min.js');
+window.$ = window.jQuery = require('jquery');
 ((io) => {
     var holder = $('#dragArea');
     console.log(holder, holder[0]);
